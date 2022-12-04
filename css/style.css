@@ -1,0 +1,78 @@
+.header {
+    color: #ffff;
+    background-color: #46d3ff;
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login {
+    margin-top: 50px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.plogin{
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav_header {
+    color: #ffff;
+    background-color: #ee3e7b;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin: 45px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #46d3ff;
+}
+.monstrinhos {
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.choosemonst {
+    border: 3px solid black; 
+    border-radius: 25px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #eff1f0;
+    margin: 15px;
+}
+.img_monster {
+    width: 150px;
+    height: 150px;
+}
+.choose {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 90px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.choose:hover {
+    border-color: #ee3e7b;
+    font-size: 17px;
+}
+.footer {
+    color: #ffff;
+    background-color: #46d3ff;
+    height: 60px;
+    text-align: center;
+    padding-top: 12px;
+}
+#imagemgithub {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
