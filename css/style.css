@@ -15,6 +15,14 @@
     margin-left: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.listmonst:hover {
+    color: #46d3ff;
+    cursor: pointer;
+}
+.plogin:hover { 
+    color: #ee3e7b;
+    cursor: pointer;
+}
 .nav_header {
     color: #ffff;
     background-color: #ee3e7b;
@@ -25,12 +33,13 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     text-align: center;
-    font-weight: bold;
     margin: 45px;
     padding: 10px;
-    border: 2px solid black;
+    border: 3px solid #ee3e7b;
     border-radius: 20px;
     background-color: #46d3ff;
 }
@@ -38,6 +47,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
 }
 .choosemonst {
     border: 3px solid black; 
@@ -58,6 +68,7 @@ h1 {
     margin-left: 30px;
     margin-bottom: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .choose:hover {
     border-color: #ee3e7b;
