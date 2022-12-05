@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header {
     color: #ffff;
     background-color: #46d3ff;
