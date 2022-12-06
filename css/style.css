@@ -35,44 +35,80 @@
     justify-content: space-around;
     height: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    
+}
+main {
+    background-image: url(./img/background/background.png);
 }
 h1 {
-    color: white;
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     text-align: center;
     margin: 45px;
     padding: 10px;
-    border: 3px solid #ee3e7b;
     border-radius: 20px;
-    background-color: #46d3ff;
 }
-.monstrinhos {
-    display: flex;
-    justify-content: space-around;
+.person {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 10px;
 }
-.choosemonst {
-    border: 3px solid black; 
-    border-radius: 25px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #eff1f0;
-    margin: 15px;
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
-.img_monster {
-    width: 150px;
-    height: 150px;
+#person_one {
+    background-image: linear-gradient(to right, #ff6e4f ,  #1b5a3d);
+    display: flex;
+}
+#person_two {
+    background-image: linear-gradient(to right, #b93c25 , #1a0605);
+    display: flex;
+}
+#person_three {
+    background-image: linear-gradient(to right, #c85052 , #e87a63);
+    display: flex;
+}
+#person_four {
+    background-image: linear-gradient(to right, #6d5732 , #b0999f);
+    display: flex;
+}
+.person_only {
+    border: 3px solid #363636; 
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 220px;
+    width: 900px;
+}
+.img_person {
+    width: 220px;
+    height: 220px;
+}
+.pt {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    padding-top: 25px;
 }
 .choose {
-    border: 1px solid black;
+    font-size: 23px;
+    background-color: #4F4F4F;
+    text-align: center;
+    border: 3px solid #363636;
     border-radius: 30px;
-    width: 90px;
-    margin-left: 30px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    height: 65px;
+    width: 180px;
     cursor: pointer;
+    padding-top: 38px;
+    margin-top: 50px;
+    margin-right: 75px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
 }
 .choose:hover {
     border-color: #ee3e7b;
