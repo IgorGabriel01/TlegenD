@@ -4,7 +4,7 @@
 }
 .header {
     color: #ffff;
-    background-color: #46d3ff;
+    background-color: #89000f;
     display: flex;
     justify-content: space-around;
     height: 120px;
@@ -20,16 +20,18 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .listmonst:hover {
-    color: #46d3ff;
+    color: #89000f;
     cursor: pointer;
+    -webkit-text-stroke: white 0.5px;
 }
 .plogin:hover { 
-    color: #ee3e7b;
+    color: #363636;
     cursor: pointer;
+    -webkit-text-stroke: white 0.5px;
 }
 .nav_header {
     color: #ffff;
-    background-color: #ee3e7b;
+    background-color: #363636;
     display: flex;
     padding-top: 20px;
     justify-content: space-around;
@@ -39,26 +41,27 @@
     
 }
 main {
-    background-image: url(./img/background/background.png);
+    background-image: url(../img/background/background_main.jpg);
+    height: 100%;
 }
 h1 {
-    color: black;
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     text-align: center;
-    margin: 45px;
-    padding: 10px;
+    padding: 40px;
     border-radius: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .person {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 10px;
 }
 .dflex {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
     margin-left: 20px;
+    padding-bottom: 15px;
 }
 #person_one {
     background-image: linear-gradient(to right, #ff6e4f ,  #1b5a3d);
@@ -84,8 +87,8 @@ h1 {
     width: 900px;
 }
 .img_person {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
 }
 .pt {
     color: white;
@@ -111,15 +114,16 @@ h1 {
     color: white;
 }
 .choose:hover {
-    border-color: #ee3e7b;
-    font-size: 17px;
+    background-color: #89000f;
+    border-color: #363636;
+    font-size: 28px;
 }
 .footer {
     color: #ffff;
-    background-color: #46d3ff;
+    background-color: #89000f;
     height: 60px;
     text-align: center;
-    padding-top: 12px;
+    height: 100px;
 }
 #imagemgithub {
     width: 25px;
