@@ -126,6 +126,7 @@ h1 {
     height: 100px;
 }
 #imagemgithub {
+    padding-top: 25px;
     width: 25px;
     height: 25px;
     margin-bottom: 5px;
